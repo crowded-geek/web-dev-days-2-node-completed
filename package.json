@@ -1,25 +1,30 @@
 {
-  "name": "web-dev-day",
-  "version": "1.0.0",
-  "description": "GDG New Delhi's Web Developers Day",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gdgnewdelhi/web-dev-day.git"
-  },
-  "author": "Team GDG",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gdgnewdelhi/web-dev-day/issues"
-  },
-  "homepage": "https://github.com/gdgnewdelhi/web-dev-day#readme",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "ejs": "^2.6.1",
-    "express": "^4.16.4",
-    "mongoose": "^5.4.8"
-  }
+	  "name": "web-dev-day",
+	    "version": "1.0.0",
+	      "description": "GDG New Delhi's Web Developers Day",
+	        "main": "index.js",
+		  "scripts": {
+			      "start": "nodemon index.js",
+			          "test": "echo \"Error: no test specified\" && exit 1"
+				    },
+				      "engines": {
+					          "node": ">=9.3.0"
+						    },
+						      "repository": {
+							          "type": "git",
+								      "url": "git+https://github.com/gdgnewdelhi/web-dev-day.git"
+								        },
+									  "author": "Team GDG",
+									    "license": "MIT",
+									      "bugs": {
+										          "url": "https://github.com/gdgnewdelhi/web-dev-day/issues"
+											    },
+											      "homepage": "https://github.com/gdgnewdelhi/web-dev-day#readme",
+											        "dependencies": {
+													    "cors": "^2.8.5",
+													        "ejs": "^2.6.1",
+														    "express": "^4.16.4",
+														        "mongoose": "^5.4.8",
+															    "nodemon": "^1.18.10"
+															      }
 }
